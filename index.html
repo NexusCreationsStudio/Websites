@@ -4,41 +4,124 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NexusCreationsStudio</title>
+    <style>
+        /* Resetting default margins and paddings */
+        body, h1, h2, p, ul, li {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f8f9fa; /* Soft background color */
+            color: #333; /* Main text color */
+        }
+
+        /* Header styles */
+        header {
+            background-color: #007bff; /* Blue header */
+            color: #fff; /* Text color */
+            padding: 20px;
+            text-align: center;
+            border-radius: 8px 8px 0 0; /* Rounded corners, top only */
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin-top: 20px;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: #fff; /* Text color */
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        /* Main content container */
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #fff; /* White container background */
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            overflow: hidden; /* Prevents shadows from overflowing */
+        }
+
+        /* Section styles */
+        section {
+            padding: 30px;
+            border-bottom: 1px solid #ddd; /* Gray border between sections */
+        }
+
+        h2 {
+            color: #007bff; /* Blue header */
+            margin-bottom: 20px;
+        }
+
+        /* Footer styles */
+        footer {
+            background-color: #f8f9fa; /* Light background color */
+            padding: 20px;
+            text-align: center;
+            border-radius: 0 0 8px 8px; /* Rounded corners, bottom only */
+            border-top: 1px solid #ddd; /* Gray border on top */
+        }
+
+        footer p {
+            font-size: 14px;
+            color: #666; /* Gray text color */
+        }
+
+        footer a {
+            color: #007bff; /* Blue link color */
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline; /* Underline on hover */
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <h1>Welcome to NexusCreationsStudio</h1>
-        <nav>
+    <div class="container">
+        <header>
+            <h1>Welcome to NexusCreationsStudio</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section id="about">
+            <h2>About Us</h2>
+            <p>Welcome to NexusCreationsStudio! We are dedicated to creating open-source projects for the community.</p>
+        </section>
+
+        <section id="projects">
+            <h2>Our Projects</h2>
+            <p>Check out our latest projects on GitHub!</p>
             <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="https://github.com/NexusCreationsStudio/HangmanRemake">HangmanRemake</a></li>
+                <li><a href="https://github.com/NexusCreationsStudio/GuessNumber">GuessNumber</a></li>
+                <li><a href="https://github.com/NexusCreationsStudio/reFlappuccinino">reFlappuccinino</a></li>
             </ul>
-        </nav>
-    </header>
+        </section>
 
-    <section id="about">
-        <h2>About Us</h2>
-        <p>Welcome to NexusCreationsStudio! We are dedicated to creating open-source projects for the community.</p>
-    </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>You can reach out to us at <a href="mailto:TheToppatStudios@gmail.com">TheToppatStudios@gmail.com</a>.</p>
+        </section>
 
-    <section id="projects">
-        <h2>Our Projects</h2>
-        <p>Check out our latest projects on GitHub!</p>
-        <ul>
-            <li><a href="https://github.com/NexusCreationsStudio/project1">Project 1</a></li>
-            <li><a href="https://github.com/NexusCreationsStudio/project2">Project 2</a></li>
-            <li><a href="https://github.com/NexusCreationsStudio/project3">Project 3</a></li>
-        </ul>
-    </section>
-
-    <section id="contact">
-        <h2>Contact Us</h2>
-        <p>You can reach out to us at <a href="mailto:TheToppatStudios@gmail.com">TheToppatStudios@gmail.com</a>.</p>
-    </section>
-
-    <footer>
-        <p>Terms of Service | Privacy Policy | EULA | <a href="mailto:TheToppatStudios@gmail.com">TheToppatStudios@gmail.com</a> | &copy;NexusCreationStudios 2023-2024</p>
-    </footer>
+        <footer><p><a href="https://nexuscreationsstudio.github.io/Websites/Terms_of_Service">Terms of Service</a> | <a href="https://nexuscreationsstudio.github.io/Websites/PrivacyPolicy">Privacy Policy</a> | <a href="https://nexuscreationsstudio.github.io/Websites/PrivacyPolicy">EULA</a> | <a href="mailto:TheToppatStudios@gmail.com">TheToppatStudios@gmail.com</a> | <a href="https://nexuscreationsstudio.github.io/Websites/">©NexusCreationStudios 2023-2024</a></p></footer>
+    </div>
 </body>
 </html>
